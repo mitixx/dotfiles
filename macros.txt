@@ -1,0 +1,25 @@
+#git
+doskey git-lfs-init='git lfs install;git lfs track "*.psd";git lfs track;echo "git lfs init completed!"'
+doskey git-init='git add *;git commit -m"init";git push -u origin master;'
+doskey gaa='git add *'
+doskey gs='git status'
+doskey gcm='git commit -m'
+doskey gpm='git push -u origin master'
+doskey gpul='git pull'
+
+#npm
+doskey nint='npm init'
+
+#brew
+doskey bi='brew install'
+doskey bs='brew search'
+doskey bci='brew cask install'
+
+#shortcut
+doskey desk='cd Desktop'
+ 
+ # Create a new directory and enter it
+function mkd() {
+	mkdir -p "$@" && cd "$_";
+}
+
