@@ -9,6 +9,8 @@ doskey gpul='git pull'
 
 #npm
 doskey nint='npm init'
+doskey ns='npm start'
+doskey nb='npm build'
 
 #brew
 doskey bi='brew install'
